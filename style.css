@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#iphone{
+    width: 330px;
+    height: 630px;
+    position: fixed;
+    margin-top: 20px;
+}
+
+.tela{
+    width: 270px;
+    height: 480px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;;
+    margin-top: 95px;
+    margin-left: 21px;
+    
+}
+
+.imagens{
+    display: block;
+    margin: auto;
+    width: 330px;
+    overflow: hidden;
+}
+
+img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+iframe img{
+    width: 300px;
+}
