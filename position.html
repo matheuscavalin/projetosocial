@@ -5,12 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .container{
+            position: relative;
             background: black;
             color: blueviolet;
             width: 100vw;
             height: 400px;
+            display: inline-block;
+        }
+
+        #div1{
+            background: white;
+            position: absolute;
+            inset: 0;
+            margin: auto;
+            width: 100px;
+            height: 100px;
+        }
+
+        #div2{
+            background: brown;
+            display: inline-block;
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+        }
+        #div3{
+            background: rgb(225, 218, 86);
+            display: inline-block;
         }
 
     </style>
